@@ -1,0 +1,76 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	 <parent>
+    	<groupId>org.kasource.commons</groupId>
+		<artifactId>ka-commons-jmx-base</artifactId>
+		<version>0.1-SNAPSHOT</version>
+    	<relativePath>../pom.xml</relativePath>
+  	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.kasource.commons</groupId>
+	<artifactId>ka-commons-jmx</artifactId>
+	<packaging>jar</packaging>
+	<name>Ka Commons JMX</name>
+	<url>http://kasource.org</url>
+	
+	<description>
+		Ka Commons JMX Core project.
+	</description>
+    
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				
+			</plugin>
+			<plugin>
+            	<groupId>org.apache.maven.plugins</groupId>
+           	 	<artifactId>maven-eclipse-plugin</artifactId>
+            	
+         </plugin>
+		</plugins>
+	</build>
+	<dependencies>
+		<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-api</artifactId>
+			</dependency>
+		<dependency>
+			<groupId>org.kasource.commons</groupId>
+			<artifactId>ka-commons-reflection</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.scannotation</groupId>
+			<artifactId>scannotation</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.easymock</groupId>
+			<artifactId>easymock</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.unitils</groupId>
+			<artifactId>unitils-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.unitils</groupId>
+			<artifactId>unitils-test</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.unitils</groupId>
+			<artifactId>unitils-inject</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.unitils</groupId>
+			<artifactId>unitils-mock</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.unitils</groupId>
+			<artifactId>unitils-easymock</artifactId>
+		</dependency>
+	</dependencies>
+</project>
