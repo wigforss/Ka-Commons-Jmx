@@ -65,8 +65,8 @@
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.kasource.commons</groupId>
-			<artifactId>ka-commons-cdi</artifactId>
+			<groupId>org.kasource</groupId>
+			<artifactId>ka-cdi</artifactId>
 		</dependency>
 		<dependency>
 				<groupId>org.slf4j</groupId>

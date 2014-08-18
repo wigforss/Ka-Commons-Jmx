@@ -4,10 +4,10 @@ package org.kasource.commons.jmx.guice;
 
 import java.util.concurrent.Executor;
 
-import org.kasource.commons.bean.BeanResolver;
-import org.kasource.commons.guice.bean.GuiceBeanResolver;
-import org.kasource.commons.guice.injection.listener.InjectionListenerRegister;
-import org.kasource.commons.guice.injection.listener.InjectionTypeListener;
+import org.kasource.di.bean.BeanResolver;
+import org.kasource.guice.bean.GuiceBeanResolver;
+import org.kasource.guice.injection.listener.InjectionListenerRegister;
+import org.kasource.guice.injection.listener.InjectionTypeListener;
 import org.kasource.commons.jmx.notification.NotificationDispatcher;
 import org.kasource.commons.jmx.notification.NotificationDispatcherImpl;
 import org.kasource.commons.jmx.registration.MBeanRegistrator;

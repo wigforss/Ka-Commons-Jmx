@@ -58,7 +58,7 @@
 	</dependency>
 	<dependency>
 		<groupId>org.kasource.commons</groupId>
-		<artifactId>ka-commons-guice</artifactId>
+		<artifactId>ka-guice</artifactId>
 	</dependency>
 		<dependency>
   			<groupId>com.google.inject</groupId>

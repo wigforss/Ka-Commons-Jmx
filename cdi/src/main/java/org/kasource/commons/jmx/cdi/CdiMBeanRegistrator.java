@@ -7,11 +7,11 @@ import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 
-import org.kasource.commons.bean.BeanResolver;
-import org.kasource.commons.cdi.extension.beanlisten.BeanEventDispatcher;
-import org.kasource.commons.cdi.extension.beanlisten.annotation.OnBeanPostConstruct;
-import org.kasource.commons.cdi.extension.beanlisten.annotation.OnBeanPreDestroy;
-import org.kasource.commons.cdi.extension.eager.Eager;
+import org.kasource.di.bean.BeanResolver;
+import org.kasource.cdi.extension.beanlisten.BeanEventDispatcher;
+import org.kasource.cdi.extension.beanlisten.annotation.OnBeanPostConstruct;
+import org.kasource.cdi.extension.beanlisten.annotation.OnBeanPreDestroy;
+import org.kasource.cdi.extension.eager.Eager;
 import org.kasource.commons.jmx.annotation.JmxBean;
 import org.kasource.commons.jmx.registration.MBeanRegistratorImpl;
 import org.kasource.commons.jmx.registration.MBeanServerLookup;

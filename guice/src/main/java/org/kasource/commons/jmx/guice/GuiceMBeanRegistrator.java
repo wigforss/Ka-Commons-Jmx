@@ -2,7 +2,7 @@ package org.kasource.commons.jmx.guice;
 
 import java.util.Set;
 
-import org.kasource.commons.bean.BeanResolver;
+import org.kasource.di.bean.BeanResolver;
 import org.kasource.commons.jmx.registration.MBeanRegistratorImpl;
 import org.kasource.commons.jmx.registration.MBeanServerLookup;
 
